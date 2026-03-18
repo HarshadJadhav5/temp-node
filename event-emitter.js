@@ -19,7 +19,7 @@ eventemitter.on('response', () => {
 })
 
 eventemitter.on('response', () => {
-  console.log(`data received`)
+  console.log(`2nd listener`)
 })
 
 eventemitter.emit('response')

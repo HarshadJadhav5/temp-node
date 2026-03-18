@@ -12,6 +12,7 @@
 
 //     else {
 //         res.end('404 not found')
+//   always end the response otherwise Without res.end(), the browser receives the data but never gets told the response is finished — so it just keeps loading forever. 
 //     }
 // })
 
